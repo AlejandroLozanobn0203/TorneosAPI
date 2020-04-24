@@ -1,0 +1,164 @@
+
+body
+{
+    background-color: rgb(255, 241, 204);
+    margin:0;
+    padding:0;
+}
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+.titulo-navbar
+{
+    font-family: serif;
+    font-size: 50px;
+    color:#c6c7c9;
+}
+.titulo-navbar-T
+{
+    color:rgb(105, 116, 124);
+}
+.titulo-navbar-Z
+{
+    color:#f21350;
+}
+.logo
+{
+    display: inline-flex;
+    margin-right: 10px;
+}
+.logo img{
+    width: 60px;
+    height: 60px;
+}
+.navbar
+{
+    margin: 0;
+    display: inline-flex;
+    width: 100%;
+    background-color: #31405d;
+}
+.navbar-container-user
+{
+    position: absolute;
+    right: 5%;
+    width: fit-content;
+}
+.navbar-container-user i
+{
+    font-size: 35px;
+    color:whitesmoke;
+    margin:0 15px;
+}
+.navbar-container-user i:hover
+{
+    color:#838790;
+    cursor:pointer;
+}
+
+/* Barra lateral/izquierda */
+.navbar-lateral
+{
+    width: 5rem;
+    height: 100vh;
+    position:fixed;
+    background-color:#31405d;
+    transition:width 200ms ease;
+}
+.navbar-lateral:hover{
+    width: 18rem;
+}
+.navbar-lateral-nav
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+.navbar-lateral-item
+{
+    width: 100%;
+}
+
+.navbar-link
+{
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    color: white;
+    text-decoration: none;
+    filter: grayscale(100%) opacity(0.7);
+    transition: var(200ms);
+}
+.navbar-link:hover {
+    filter: grayscale(0%) opacity(1);
+    background: #69747c;
+    color: #d1dee4;
+  }
+
+.navbar-link i
+{
+    font-size: 2rem;
+    margin-left: 1.5rem;
+}
+.navbar-lateral-item:hover .navbar-link i
+{
+    color:#f21350;
+}
+.texto-link
+{
+    display: none;
+    font-size: 1.5rem;
+    /* margin-left: 1rem; */
+    margin:0 auto;
+}
+.navbar-lateral:hover .texto-link
+{
+    display: block;
+}
+
+.logo-navbar-lateral
+{
+    display: block;
+    margin: 12% auto;
+    height: 5rem;
+    width: 100%;
+    color: 171f2d;
+    text-decoration: none;
+}
+.navbar-lateral:hover .logo-navbar-lateral
+{
+    filter: grayscale(100%);
+    background-color:#212b40;
+}
+.logo-navbar-lateral i
+{
+    margin: 0 auto;
+    font-size: 70px;
+    color:#f21350;
+    transform: rotate(90deg);
+    transition:300ms ease;
+}
+.navbar-lateral:hover .logo-navbar-lateral i
+{
+    margin-left: 1.5rem;
+    transform: rotate(180deg);
+    color:#e83e8c;
+}
+.logo-navbar-lateral-texto
+{
+    display: none;
+}
+.navbar-lateral:hover .logo-navbar-lateral-texto
+{
+    font-size: 25px;
+    display: inline-flex;
+    color:white;
+}
+
+
+

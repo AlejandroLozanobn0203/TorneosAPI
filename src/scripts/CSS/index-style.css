@@ -1,0 +1,85 @@
+body
+{
+    background-image: url("https://www.freevector.com/uploads/vector/preview/1078/FreeVector-Mayan-Pyramid-Vector.jpg");
+    background-repeat:no-repeat;
+    background-color: rgb(255, 241, 204);
+    background-position:50% 0;
+}
+.contenedorInicio
+{
+    display: flex;
+    justify-content: center;
+    vertical-align: center;
+    margin:5% 0;
+}
+.card
+{
+    opacity: 0.9;
+    background-color: #a5a7a7;
+}
+.card-text
+{
+    text-align: center;
+}
+.card-img-top
+{
+    height: 200px;
+    width: 230px;
+    margin: 0 auto;
+}
+.btn-group
+{
+    display: flex;
+}
+.white
+{
+    flex-grow: 3;
+}
+.contenedorLogin
+{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 10%;
+    margin: auto;
+    width: 300px;
+    height: 400px;
+    border: 2px solid;
+    background-color: #283234;
+    border: 2px solid #d9be91;
+    border-radius: 3px;
+    padding: 5px;
+}
+.buttonClose
+{
+    float: right;
+    color:white;
+    margin:5px;
+    padding: 5px;
+    background: none;
+	border: none;
+	font: inherit;
+	cursor: pointer;
+    outline: inherit;
+}
+.animacionLogin
+{
+    animation-duration: 4s;
+    animation-delay: 0.1s;
+}
+form
+{
+    margin-top: 30%;
+    color:white;
+}
+.logInButtom
+{
+    margin: 0 auto;
+    display: block;
+    background-color: #d9be91;
+}
+
+
+
